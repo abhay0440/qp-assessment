@@ -45,7 +45,6 @@ Endpoint: POST curl -X POST http://localhost:8000/app/orders/create \
     ]
 }'
 
-![image](https://github.com/abhay0440/qp-assessment/assets/52811391/87a7556f-cb0f-4652-9084-89b568f4b8e7)
 ![createorder](https://github.com/abhay0440/qp-assessment/assets/52811391/570a40c3-6c48-405e-be31-9e2554eaf78e)
 
 Endpoint: GET /
@@ -62,6 +61,7 @@ Endpoint: DELETE
 curl -X POST http://localhost:8000/app/inventory/delete \
     -H 'Content-Type: application/json' \
     -H 'Authorization: <your_token_here>' \
+![delete](https://github.com/abhay0440/qp-assessment/assets/52811391/7e4fbab1-a1be-49eb-a653-b6948e2d9f18)
 
 
 Update Details of Existing Grocery Items: MODIFY
@@ -70,6 +70,8 @@ curl -X POST http://localhost:8000/app/inventory/modify \
     -H 'Content-Type: application/json' \
     -H 'Authorization: <your_token_here>' \
     -d '{ "productId": 4, "quantity": 5 }'
+    ![modify](https://github.com/abhay0440/qp-assessment/assets/52811391/06356752-742d-4e16-8f12-4caaa9b53e20)
+
 
 
 Advanced Challenge:
