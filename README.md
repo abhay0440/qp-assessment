@@ -50,10 +50,12 @@ Endpoint: POST curl -X POST http://localhost:8000/app/orders/create \
 Endpoint: GET /
 View Inventory Items:
 curl http://localhost:8000/app/inventory/view \
+
     -H 'Content-Type: application/json' \
     -H 'Authorization: <your_token_here>'
 
-![inventoryview](https://github.com/abhay0440/qp-assessment/assets/52811391/d0b5f115-5b42-47f6-97b8-a04ffde9324b)
+![inventoryview](https://github.com/abhay0440/qp-assessment/assets/52811391/4034d154-ca83-4a4f-aee6-a0993265836d)
+
 
 Endpoint: DELETE
 curl -X POST http://localhost:8000/app/inventory/delete \
