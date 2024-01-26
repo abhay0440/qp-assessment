@@ -88,3 +88,6 @@ Tables:
     userroles
     ordermaster
     orderdetails
+
+    
+![db](https://github.com/abhay0440/qp-assessment/assets/52811391/0bc0181a-fa99-48e3-91d7-a51a7db71f8c)
