@@ -15,12 +15,22 @@ Roles:
 Admin:
 Add New Grocery Items:
 Login : From this API we get the Access token that we are going to use for Authrization
+
 curl -X POST http://localhost:8000/app/login \
     -H 'Content-Type: application/json' \
     -d '{
     "username":"Akash",
     "password":"password"
 }'
+Admin User:
+
+    Username : Abhay
+    Password : password
+    
+Normal User: (Inventory create,modify and delete Access is not given for normal user)
+
+    Username : Akash
+    Password : password
 
 
 Endpoint: POST curl -X POST http://localhost:8000/app/orders/create \
