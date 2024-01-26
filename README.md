@@ -1,4 +1,4 @@
-![image](https://github.com/abhay0440/qp-assessment/assets/52811391/87a7556f-cb0f-4652-9084-89b568f4b8e7)# qp-assessment
+# qp-assessment
 This Grocery Booking API is designed to facilitate the interaction between the Admin, who manages the grocery inventory, and Users, who can view the available items and book them. The API is equipped with essential functionalities such as adding, viewing, updating, and removing grocery items, as well as managing inventory levels
 
 API Usage:
@@ -45,6 +45,7 @@ Endpoint: POST curl -X POST http://localhost:8000/app/orders/create \
     ]
 }'
 
+![image](https://github.com/abhay0440/qp-assessment/assets/52811391/87a7556f-cb0f-4652-9084-89b568f4b8e7)
 ![createorder](https://github.com/abhay0440/qp-assessment/assets/52811391/570a40c3-6c48-405e-be31-9e2554eaf78e)
 
 Endpoint: GET /
